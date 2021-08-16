@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings Screen - Kokoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>
+          <script>
+            let dateTime = new Date();
+            let hour = dateTime.getHours();
+            let minutes = dateTime.getMinutes();
+            document.write(hour + ":" + minutes);
+          </script>
+        </span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-2x"></i>
+      </div>
+    </header>
+
+    <main class="friends__screen">
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notices</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-flask"></i>
+            <span>KaKao Lab</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-info-circle"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting-column">Latest Version</div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-heart"></i>
+            <span>Love</span>
+          </div>
+          <div class="settings__setting-column">I Love you so much!!</div>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li cass="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li cass="nav__btn">
+          <a class="nav__link" href="chat.html">
+            <sapn class="nav__notification badge">1</sapn
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li cass="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li cass="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><sapn class="nav__dot"></sapn
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="no-mobile">
+      <span>화면이 커요ㅜㅜ 가로로 줄여주세요ㅠㅠ</span>
+    </div>
+    <scriptㄴ
+      src="https://kit.fontawesome.com/fc95897f6e.js"
+      crossorigin="anonymous"
+    ></scriptㄴ>
+  </body>
+</html>
